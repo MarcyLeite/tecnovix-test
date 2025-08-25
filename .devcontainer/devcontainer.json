@@ -1,0 +1,14 @@
+{
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "dev-env",
+	"workspaceFolder": "/home/iguana/app",
+	"shutdownAction": "stopCompose",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Vue.volar",
+				"dbaeumer.vscode-eslint"
+			]
+		}
+	}
+}
