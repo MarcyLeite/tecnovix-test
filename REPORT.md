@@ -23,23 +23,13 @@ Foi desconsiderado as colunas `CustomerID`, `Contract`, `PaperlessBilling` e `Pa
 A coluna InternetService foi transformada nas colunas InternetService_DSL e InternetService_FiberOptic.
 
 ## Treinamento
-Foram testado os modelos Logistic Regression, K-Nearest Neighbors, Random Forst, Hist Gradient Boosting e Support Vector Classifier.
+Foram testado os modelos Logistic Regression, K-Nearest Neighbors, Random Forst, Hist Gradient Boosting.
 
 ### Resultados
 
-| Modelo | Precisão |
-| ------ | -------- |
-| Logistic Regression | 78.84% |
-| K-Nearest Neighbors | 76.96% |
-| Random Forest | 78.10% |
-| Hist Gradient Boosting | 78.95% |
-| Support Vector Classifier | 73.95% |
-
-#### Heat Map
 A seguir, heat maps com a relação entre as pessoas que cancelaram e mantiveram seus serviços (churn) entre os dados reais e os dados previstos pelo modelo treinado.
 
 ![Logistic Regression Heatmap](images/matrix-logistic-regression.png)
 ![KNeighbors Heatmap](images/matrix-kneighbors.png)
 ![Random Forest Heatmap](images/matrix-random-forest.png)
 ![Hist Gradient Boosting Heatmap](images/matrix-histgb.png)
-![Support Vector Classifier Heatmap](images/matrix-svc.png)
