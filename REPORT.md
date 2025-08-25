@@ -36,7 +36,7 @@ Foram testado os modelos Logistic Regression, K-Nearest Neighbors, Random Forst,
 | Support Vector Classifier | 73.95% |
 
 #### Heat Map
-A seguir, heat maps com a relação entre as pessoas que cancelaram e mantiveram seus serviços (churn) entre os dados reais e os dados previstos pelo modelo treinado:
+A seguir, heat maps com a relação entre as pessoas que cancelaram e mantiveram seus serviços (churn) entre os dados reais e os dados previstos pelo modelo treinado.
 
 ![Logistic Regression Heatmap](images/matrix-logistic-regression.png)
 ![KNeighbors Heatmap](images/matrix-kneighbors.png)

@@ -90,7 +90,7 @@ models = {
 }
 
 def plot(name, accuracy, matrix):
-	labels = ['Churn', 'Not Churn']
+	labels = ['Not Churn', 'Churn']
 	fig, ax = plt.subplots()
 	ax.imshow(matrix)
 
